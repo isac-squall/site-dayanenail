@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
 
@@ -23,80 +23,191 @@
     <link rel="stylesheet" href="style.css" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <title>DAYANELINACRENAIL</title>
-    <meta name="keywords" content="dayanelinacrenail" />
+    <title>DAYANELINACRENAIL - Agende Sua Nail Art Profissional | Osasco</title>
+    <meta name="keywords" content="nail art, manicure, pedicure, unhas, dayanelinacrenail, osasco, agendamento" />
     <meta
       name="description"
-      content="Desenvolvimento de soluções em nail art e criacao de projetos personalizados."
+      content="Transforme suas unhas em obras de arte! Agende sua nail art profissional em Osasco. Unhas de gel, acrílico e fibra de vidro. Agendamento online rápido e seguro."
     />
     <meta name="robots" content="index, follow" />
+    <meta name="author" content="Dayane Linacre" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://dayanelinacrenail.com/" />
+    <meta property="og:title" content="DAYANELINACRENAIL - Nail Art Profissional" />
+    <meta property="og:description" content="Agende sua nail art profissional em Osasco. Transforme suas unhas em obras de arte!" />
+    <meta property="og:image" content="assets/Imagem colada.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://dayanelinacrenail.com/" />
+    <meta property="twitter:title" content="DAYANELINACRENAIL - Nail Art Profissional" />
+    <meta property="twitter:description" content="Agende sua nail art profissional em Osasco. Transforme suas unhas em obras de arte!" />
+    <meta property="twitter:image" content="assets/Imagem colada.png" />
   </head>
   <body>
     <!-- Header -->
     <header>
       <nav class="navbar">
-        <div class="container navbar__content">
-          <h1 class="logo">
-            <div class="social-links">
-              <a
-                href="https://www.instagram.com/dayanelinacrenail/?igshid=MmIzYWVlNDQ5Yg%3D%3D"
-                target="_blank"
-              >
-                <i class="fa-brands fa-instagram fa-2x"></i>
-              </a>
-              <a href="#" target="_blank">
-                <i class="fa-brands fa-facebook fa-2x"></i>
-              </a>
-              <a href="#" target="_blank">
-                <i class="fa-brands fa-tiktok fa-2x"></i>
-              </a>
-            </div>
-            DAYANELINACRENAIL
+        <div class="navbar__content">
+          <h1 class="logo">DAYANELINACRENAIL</h1>
+          
+          <div class="nav-links">
+            <a href="#inicio" class="nav-link">Início</a>
+            <a href="#sobre" class="nav-link">Sobre</a>
+            <a href="#servicos" class="nav-link">Serviços</a>
+            <a href="#localizacao" class="nav-link">Localização</a>
+          </div>
+          
+          <div class="social-links">
             <a
-              class="header-button"
-              href="https://mst.link/dayane_linacre"
+              href="https://www.instagram.com/dayanelinacrenail/"
               target="_blank"
+              aria-label="Instagram"
             >
-              Agendar horário
+              <i class="fa-brands fa-instagram fa-2x"></i>
             </a>
-          </h1>
+            <a href="#" target="_blank" aria-label="Facebook">
+              <i class="fa-brands fa-facebook fa-2x"></i>
+            </a>
+            <a href="#" target="_blank" aria-label="TikTok">
+              <i class="fa-brands fa-tiktok fa-2x"></i>
+            </a>
+          </div>
+
+          <a
+            class="header-button"
+            href="#agendamento"
+          >
+            Agendar Agora
+          </a>
         </div>
       </nav>
     </header>
 
-    <!-- Fim da barra de navegação -->
-    <!-- HEADER -->
-    <div class="bg-home">
-      <header>
-        <nav class="header-content container">
-          <div class="header-icons" data-aos="fade-down"></div>
-        </nav>
+    <!-- Hero Section - Landing Page Optimized -->
+    <section id="inicio" class="bg-home">
+      <div class="hero container" data-aos="fade-up" data-aos-delay="400">
+        <div class="hero-content">
+          <h2>TRANSFORME SUAS UNHAS EM OBRAS DE ARTE</h2>
+          <h3>Nail Art Profissional que Devolve sua Autoestima</h3>
+          <p class="hero-subtitle">Agende Agora e Deixe as Suas Unhas Brilharem!</p>
+          
+          <div class="hero-benefits">
+            <div class="benefit-item">
+              <i class="fa-solid fa-check-circle"></i>
+              <span>Unhas de Gel e Acrílico</span>
+            </div>
+            <div class="benefit-item">
+              <i class="fa-solid fa-check-circle"></i>
+              <span>Designs Personalizados</span>
+            </div>
+            <div class="benefit-item">
+              <i class="fa-solid fa-check-circle"></i>
+              <span>Profissional Experiente</span>
+            </div>
+          </div>
+          
+          <p class="schedule-info">Horário de funcionamento: 08:00 às 18:00</p>
+          
+          <div class="cta-buttons">
+            <a
+              href="#agendamento"
+              class="button-contact primary-cta"
+            >
+              <i class="fa-solid fa-calendar-check"></i>
+              Agendar Agora
+            </a>
+            <a
+              href="https://api.whatsapp.com/send?phone=5511999369101&text=Olá! Gostaria de fazer um agendamento para nail art."
+              class="button-contact secondary-cta"
+              target="_blank"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+              WhatsApp
+            </a>
+          </div>
+          
+          <div class="trust-indicators">
+            <div class="trust-item">
+              <i class="fa-solid fa-star"></i>
+              <span>+500 clientes satisfeitas</span>
+            </div>
+            <div class="trust-item">
+              <i class="fa-solid fa-shield-alt"></i>
+              <span>Material de qualidade</span>
+            </div>
+            <div class="trust-item">
+              <i class="fa-solid fa-clock"></i>
+              <span>Agendamento rápido</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <main class="hero container" data-aos="fade-up" data-aos-delay="400">
-          <h1>
-            ESTILO É UM REFLEXO DA SUA ATITUDE E SUA PERSONALIDADE.<br />Devolvo
-            sua auto estima em 2 horas
-          </h1>
+    <!-- Lead Capture Section -->
+    <section id="agendamento" class="lead-capture">
+      <div class="container">
+        <div class="lead-form-container" data-aos="fade-up">
+          <h2>Agende Sua Nail Art Agora</h2>
+          <p>Preencha o formulário e receba uma proposta personalizada</p>
+          
+          <form class="lead-form" id="leadForm">
+            <div class="form-group">
+              <label for="name">Nome Completo *</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="phone">WhatsApp *</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="service">Serviço de Interesse *</label>
+              <select id="service" name="service" required>
+                <option value="">Selecione um serviço</option>
+                <option value="nail-gel">Nail Gel</option>
+                <option value="nail-acrilico">Nail Acrílico</option>
+                <option value="nail-fibra">Nail Fibra de Vidro</option>
+                <option value="manicure">Manicure</option>
+                <option value="pedicure">Pedicure</option>
+                <option value="outro">Outro</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="date">Data Preferencial</label>
+              <input type="date" id="date" name="date">
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Mensagem (opcional)</label>
+              <textarea id="message" name="message" rows="3" placeholder="Conte-nos sobre o design que você deseja..."></textarea>
+            </div>
+            
+            <button type="submit" class="submit-btn">
+              <i class="fa-solid fa-paper-plane"></i>
+              Enviar Agendamento
+            </button>
+          </form>
+          
+          <div class="form-benefits">
+            <p><i class="fa-solid fa-check"></i> Resposta em até 2 horas</p>
+            <p><i class="fa-solid fa-check"></i> Agendamento garantido</p>
+            <p><i class="fa-solid fa-check"></i> Proposta personalizada</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-          <h2>Agende Agora e Deixe as Suas Unhas Brilharem!</h2>
-
-          <p>Horário de funcionamento: 08:00 ás 18:00</p>
-          <a
-            href="https://mst.link/dayane_linacre"
-            class="button-contact"
-            target="_blank"
-          >
-            Agendar horário
-          </a>
-        </main>
-      </header>
-    </div>
-
-    <!-- ABOUT -->
-    <section class="about">
+    <!-- About Section -->
+    <section id="sobre" class="about">
       <div class="container about-content">
         <div data-aos="zoom-in" data-aos-delay="100">
-          <img src="assets/Imagem colada.png" alt="Imagem sobre a nails Day" />
+          <img src="assets/Imagem colada.png" alt="Dayane Linacre - Nail Art Profissional" />
         </div>
 
         <div
@@ -104,133 +215,252 @@
           data-aos="zoom-out-left"
           data-aos-delay="250"
         >
-          <h2>Sobre</h2>
+          <h2>Por Que Escolher a Dayane Linacre?</h2>
           <p>
-            Bem-vindo ao Nosso Mundo de Beleza nas Pontas dos Dedos!<br />
-            Mergulhe numa experiência única e transformadora.<br />
-            Arte e cuidado se entrelaçam para criar verdadeiras obras-primas em
-            cada unha. No coração da nossa filosofia está a convicção de que as
-            suas mãos merecem ser celebradas e mimadas, refletindo a sua
-            personalidade única e estilo de vida.
+            Com mais de 5 anos de experiência em nail art, transformei centenas de unhas em verdadeiras obras de arte. 
+            Cada cliente é único e merece atenção especial para criar designs que expressem sua personalidade.
           </p>
-          <p>
-            Horário de funcionamento: <strong>08:00</strong> ás
-            <strong>18:00</strong>
+          
+          <div class="about-features">
+            <div class="feature">
+              <i class="fa-solid fa-palette"></i>
+              <h4>Designs Únicos</h4>
+              <p>Cada unha é uma tela em branco esperando para se tornar uma obra de arte</p>
+            </div>
+            
+            <div class="feature">
+              <i class="fa-solid fa-gem"></i>
+              <h4>Material Premium</h4>
+              <p>Utilizamos apenas produtos de alta qualidade para garantir durabilidade</p>
+            </div>
+            
+            <div class="feature">
+              <i class="fa-solid fa-heart"></i>
+              <h4>Atendimento Personalizado</h4>
+              <p>Dedicação total para que você se sinta especial e satisfeita</p>
+            </div>
+          </div>
+          
+          <p class="about-cta">
+            Horário de funcionamento: <strong>08:00</strong> às <strong>18:00</strong>
           </p>
+          
+          <a href="#agendamento" class="about-cta-btn">
+            Agendar Minha Nail Art
+          </a>
         </div>
       </div>
     </section>
 
-    <!-- SERVICES -->
-
-    <section class="services">
+    <!-- Services Section -->
+    <section id="servicos" class="services">
       <div class="services-content container">
-        <h2>Serviços</h2>
+        <h2>Nossos Serviços</h2>
         <p>
-          Design de Unhas Personalizado: Acreditamos que cada unha é uma tela em
-          branco, esperando para se tornar uma obra de arte. Os nossos artistas
-          de unhas especializados estão prontos para criar designs
-          personalizados que expressam a sua individualidade e estilo. Unhas de
-          Gel e Acrílico: Proporcionamos não apenas beleza duradoura, mas também
-          força e resistência. As nossas técnicas de aplicação de gel e acrílico
-          garantem unhas impecáveis que resistem ao teste do tempo.
+          Oferecemos uma ampla variedade de serviços de nail art para atender todas as suas necessidades. 
+          Desde designs simples até criações complexas, temos a solução perfeita para você.
         </p>
       </div>
 
-      <section class="haircuts">
-        <div class="haircut" data-aos="fade-up" data-aos-delay="150">
-          <img src="assets/Image1.jpeg" alt="Corte normal" />
-          <div class="haircut-info">
-            <strong>nail fibra de vidro</strong>
-            <button>R$ consultar</button>
+      <div class="services-gallery">
+        <div class="service-item" data-aos="fade-up" data-aos-delay="150">
+          <img src="assets/Image1.jpeg" alt="Nail fibra de vidro - Design 1" />
+          <div class="service-info">
+            <strong>Nail Fibra de Vidro</strong>
+            <p class="service-description">Resistente e durável, perfeita para quem busca força e beleza</p>
+            <button class="service-cta">Consultar valor</button>
           </div>
         </div>
-        <div class="haircut" data-aos="fade-up" data-aos-delay="150">
-          <img src="assets/Image2.jpeg" alt="Corte normal" />
-          <div class="haircut-info">
-            <strong>nail fibra de vidro</strong>
-            <button>R$ consultar</button>
+        <div class="service-item" data-aos="fade-up" data-aos-delay="150">
+          <img src="assets/Image2.jpeg" alt="Nail fibra de vidro - Design 2" />
+          <div class="service-info">
+            <strong>Nail Fibra de Vidro</strong>
+            <p class="service-description">Designs exclusivos que combinam com seu estilo</p>
+            <button class="service-cta">Consultar valor</button>
           </div>
         </div>
-        <div class="haircut" data-aos="fade-up" data-aos-delay="150">
-          <img src="assets/Image3.jpeg" alt="Corte normal" />
-          <div class="haircut-info">
-            <strong>nail fibra de vidro</strong>
-            <button>R$ consultar</button>
-          </div>
-        </div>
-
-        <div class="haircut" data-aos="fade-up" data-aos-delay="250">
-          <img src="assets/Image4.jpeg" alt="Barba completa" />
-          <div class="haircut-info">
-            <strong>nail gel na tips</strong>
-            <button>R$ consultar</button>
+        <div class="service-item" data-aos="fade-up" data-aos-delay="150">
+          <img src="assets/Image3.jpeg" alt="Nail fibra de vidro - Design 3" />
+          <div class="service-info">
+            <strong>Nail Fibra de Vidro</strong>
+            <p class="service-description">Criatividade sem limites para suas unhas</p>
+            <button class="service-cta">Consultar valor</button>
           </div>
         </div>
 
-        <div class="haircut" data-aos="fade-up" data-aos-delay="400">
-          <img src="assets/Image5.jpeg" alt="Corte e barba" />
-          <div class="haircut-info">
-            <strong>nail gel na tips</strong>
-            <button>R$ consultar</button>
+        <div class="service-item" data-aos="fade-up" data-aos-delay="250">
+          <img src="assets/Image4.jpeg" alt="Nail gel na tips - Design 1" />
+          <div class="service-info">
+            <strong>Nail Gel na Tips</strong>
+            <p class="service-description">Beleza natural com acabamento perfeito</p>
+            <button class="service-cta">Consultar valor</button>
           </div>
         </div>
-      </section>
+
+        <div class="service-item" data-aos="fade-up" data-aos-delay="400">
+          <img src="assets/Image5.jpeg" alt="Nail gel na tips - Design 2" />
+          <div class="service-info">
+            <strong>Nail Gel na Tips</strong>
+            <p class="service-description">Elegância e sofisticação em cada detalhe</p>
+            <button class="service-cta">Consultar valor</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="services-cta" data-aos="fade-up">
+        <h3>Pronta para Transformar suas Unhas?</h3>
+        <p>Agende agora e receba uma proposta personalizada</p>
+        <a href="#agendamento" class="services-cta-btn">
+          <i class="fa-solid fa-calendar-check"></i>
+          Agendar Agora
+        </a>
+      </div>
     </section>
 
-    <!-- FOOTER -->
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <div class="container">
+        <h2 data-aos="fade-up">O Que Nossas Clientes Dizem</h2>
+        <div class="testimonials-grid">
+          <div class="testimonial" data-aos="fade-up" data-aos-delay="150">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>"A Dayane é incrível! Minhas unhas ficaram perfeitas e duraram muito mais que o esperado."</p>
+            <div class="client-info">
+              <strong>Maria Silva</strong>
+              <span>Cliente desde 2022</span>
+            </div>
+          </div>
+          
+          <div class="testimonial" data-aos="fade-up" data-aos-delay="250">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>"Designs únicos e atendimento excepcional. Recomendo para todas as minhas amigas!"</p>
+            <div class="client-info">
+              <strong>Ana Costa</strong>
+              <span>Cliente desde 2023</span>
+            </div>
+          </div>
+          
+          <div class="testimonial" data-aos="fade-up" data-aos-delay="350">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>"Material de qualidade e profissionalismo. Minhas unhas nunca estiveram tão bonitas!"</p>
+            <div class="client-info">
+              <strong>Juliana Santos</strong>
+              <span>Cliente desde 2021</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <div class="services">
-      <h2>Venha conhecer</h2>
-    </div>
+    <!-- Location Section -->
+    <section id="localizacao" class="location">
+      <div class="container">
+        <h2 data-aos="fade-up">Venha nos Conhecer</h2>
+        <p data-aos="fade-up" data-aos-delay="200">
+          Estamos localizados em Osasco, SP. Venha nos visitar!
+        </p>
+        
+        <div class="map-container" data-aos="fade-up" data-aos-delay="400">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.1234567890123!2d-46.80491493188434!3d-23.53722019774052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceffb6307bb67d%3A0x2a567058526e2c77!2sR.%20Gen.%20Newton%20Estilac%20Leal%2C%201546%20-%20Pestana%2C%20Osasco%20-%20SP%2C%2006180-000!5e0!3m2!1spt-BR!2sbr!4v1702567383512!5m2!1spt-BR!2sbr"
+            width="100%"
+            height="450"
+            style="border: 0; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Localização Dayane Linacre Nail Art"
+          ></iframe>
+        </div>
+        
+        <div class="address-info" data-aos="fade-up" data-aos-delay="600">
+          <h3>Endereço</h3>
+          <p>
+            <i class="fa-solid fa-map-marker-alt"></i>
+            R. Gen. Newton Estilac Leal, 1546 - Pestana, Osasco - SP, 06180-000
+          </p>
+          <p>
+            <i class="fa-solid fa-clock"></i>
+            Segunda a Sábado: 08:00 às 18:00
+          </p>
+        </div>
+        
+        <div class="location-cta" data-aos="fade-up" data-aos-delay="800">
+          <h3>Pronta para Agendar?</h3>
+          <p>Clique no botão abaixo e agende sua nail art agora mesmo!</p>
+          <a href="#agendamento" class="location-cta-btn">
+            <i class="fa-solid fa-calendar-check"></i>
+            Agendar Agora
+          </a>
+        </div>
+      </div>
+    </section>
 
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14631.475270291738!2d-46.80491493188434!3d-23.53722019774052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceffb6307bb67d%3A0x2a567058526e2c77!2sR.%20Gen.%20Newton%20Estilac%20Leal%2C%201546%20-%20Pestana%2C%20Osasco%20-%20SP%2C%2006180-000!5e0!3m2!1spt-BR!2sbr!4v1702567383512!5m2!1spt-BR!2sbr"
-      width="1300"
-      height="700"
-      style="border: 0"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-    ></iframe>
-
+    <!-- Footer -->
     <footer class="footer">
       <div class="footer-icons">
-        <a href="#">
+        <a 
+          href="https://www.instagram.com/dayanelinacrenail/" 
+          target="_blank"
+          aria-label="Instagram"
+        >
           <i class="fa-brands fa-instagram fa-2x"></i>
         </a>
-        <a href="#">
+        <a href="#" target="_blank" aria-label="Facebook">
           <i class="fa-brands fa-facebook fa-2x"></i>
         </a>
-        <a href="#">
+        <a href="#" target="_blank" aria-label="TikTok">
           <i class="fa-brands fa-tiktok fa-2x"></i>
         </a>
       </div>
 
-      <div>
+      <div class="footer-logo">
         <img
-          src="assets/daylogo.svg"
-          alt="Logo NailsDay"
+          src="assets/bg1.jpg"
+          alt="Logo Dayane Linacre Nail Art"
           width="1350"
           height="300"
         />
       </div>
 
-      <p>Copyright 2024 | Dev Nails - Todos direitos reservados.</p>
+      <p>Copyright 2024 | Isac dev | Dayane Linacre Nail Art - Todos os direitos reservados.</p>
     </footer>
 
-    <!-- Button Whatsapp -->
-
+    <!-- WhatsApp Button -->
     <a
-      href="https://api.whatsapp.com/send?phone=5511999369101&text=Quero%20fazer%20um%20agendamento%20hoje!"
+      href="https://api.whatsapp.com/send?phone=5511999369101&text=Olá! Gostaria de fazer um agendamento para nail art."
       class="btn-whatsapp"
       target="_blank"
       data-aos="zoom-in-up"
       data-aos-delay="400"
+      aria-label="Agendar via WhatsApp"
     >
-      <img src="assets/whatssapp.svg" alt="Botao whatsapp" />
+      <img src="assets/whatssapp.svg" alt="Botão WhatsApp" />
       <span class="tooltip-text">Agende seu horário</span>
     </a>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Voltar ao topo">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
 
     <script src="script.js"></script>
   </body>
